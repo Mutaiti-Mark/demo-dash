@@ -2,17 +2,16 @@
     margin: 0;
 }
 .container{
-    min-height: 100vh;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 180px 1fr 1fr;
-    grid-template-columns: 0.7fr 3fr 1fr;
+    grid-template-rows: 170px 1fr 1fr;
+    grid-template-columns: .7fr 3fr .9fr;
 }
 
 
 .header{
     background-color: #f8fafc;
-    grid-column: 2/4;
-    grid-row: 1/2;
+    grid-column: span 2;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 5fr 1fr 1fr 1fr;
